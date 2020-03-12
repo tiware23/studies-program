@@ -14,4 +14,24 @@ class Conta:
     
     def saca(self, valor):
         self.__saldo -= valor
+    
+    # cohesion = The class has to have the only one responsability!!!
+    # Encapsulamento
+    def transfere(self, valor, destino):
+        self.saca(valor) # self can call method as well. 
+        destino.deposita(valor)
+    
+    # Getters
+    def get_saldo(self):
+        return self.__saldo
+    
+    def get_titular(self):
+        return self.__titular
+    
+    def get_limite(self):
+        return self.__limite
+    
+    # Setters
+    def set_limite(self, limite):
+        self.__limite = limite
         
