@@ -12,8 +12,15 @@ class Conta:
     def deposita(self, valor):
         self.__saldo += valor
     
+    def __pode_sacar(self, valor_a_sacar): # In a Class methods could be private. (__pode_sacar)
+        total_disponivel = self.__saldo + self.__limite
+        return valor_a_sacar <= total_disponivel
+
     def saca(self, valor):
-        self.__saldo -= valor
+        if self.__pode_sacar(valor):
+            self.__saldo -= valor
+        else:
+            print("O valor {} passou o limite".format(valor))
     
     # cohesion = The class has to have the only one responsability!!!
     # Encapsulamento
@@ -22,16 +29,23 @@ class Conta:
         destino.deposita(valor)
     
     # Getters
-    def get_saldo(self):
+    @property
+    def saldo(self):
         return self.__saldo
     
-    def get_titular(self):
+    @property
+    def titular(self):
         return self.__titular
     
-    def get_limite(self):
+    @property
+    def limite(self):
         return self.__limite
     
+    @limite.setter
     # Setters
-    def set_limite(self, limite):
+    def limite(self, limite):
         self.__limite = limite
-        
+    
+    @staticmethod
+    def codigo_banco(): # Static methods
+        return {'BB': '001', 'Caixa': '104', 'Bradeso': '237'} 
