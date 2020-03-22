@@ -1,3 +1,6 @@
 __pycache__/
 *.py[cod]
 *$py.class
+python/.DS_Store
+.idea/
+python/alura/*/.idea/
