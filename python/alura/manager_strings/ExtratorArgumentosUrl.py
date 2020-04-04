@@ -6,6 +6,17 @@ class ExtratorArgumentosUrl:
         else:
             raise LookupError("Url invalida!!!")
 
+    def __len__(self):
+        return len(self.url)
+
+    def __str__(self):
+        moedaOrigem, moedaDestino = self.extraiArgumentos()
+        represetancao = f'Valor: {self.extraiValor()}\n Moeda de origem: {moedaOrigem}\n Moeda destino: {moedaDestino}'
+        return represetancao
+
+    def __eq__(self, outraInstancia):
+        return self.url == outraInstancia.url
+
     @staticmethod
     def urlEhValida(url):
         if url and url.startswith("https://bytebank.com"):
