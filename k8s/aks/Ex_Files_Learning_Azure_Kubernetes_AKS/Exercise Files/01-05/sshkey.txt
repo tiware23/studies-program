@@ -1,0 +1,10 @@
+"linuxProfile": {
+    "adminUsername": "azureuser",
+    "ssh": {
+      "publicKeys": [
+        {
+          "keyData": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDAF9NpKkCYCM2QyheZFVnXvn9lIxcpFQRtvd2NfS0bkAJ6DlQlfTmGhIcFNS7oLuDkMwSIsFoPPJ/3wBDMAzMFy4qeS+AzLoRhxjU26pt7LQc3wsOCfhRtqXz7H652w92uyE6hIYtN14u3WIH4F0QxnydI3u8QM0E3fihW+oz/+kghfI+FLCKSQV4TVlC7Qf6X11IgY0m2eNpRg15abSGQupPM7rtW1k/MoL/kRu42Ozp/zGt7bH45zhNbgUkm2PdOiPH/NhtRaGfvK+IVzmtGVRcLJmxQ4a0BBdvLNiDOGi29vpiNSI2MJ5XWyQgOIlNmYb5X5PnVBvpwIcHzhBcF thiago@br-n-6622\n"
+        }
+      ]
+    }
+  },
