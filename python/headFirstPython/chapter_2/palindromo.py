@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
-def return_palindromo(word):
+def return_palindromo(word:str) -> bool:
+    """Received a string to parse the first 
+    and finals letters"""
     first_list = []
     second_list = []
 
