@@ -1,0 +1,90 @@
+{
+  "links": {
+    "help_chat": ""
+  },
+  "images": {
+    "invoice": ""
+  },
+  "strings": {
+  },
+  "contact_us": {
+    "phones": [
+      {
+        "title": "Capitais E Regiões Metropolitanas",
+        "available_phone": "4003-3710"
+      },
+      {
+        "title": "Demais localidades",
+        "available_phone": "0800 880 3710"
+      },
+      {
+        "title": "SAC",
+        "available_phone": "0800 77 2022"
+      },
+      {
+        "title": "Ouvidoria",
+        "available_phone": "0800-771-5454"
+      },
+      {
+        "title": "Def. auditivos ou de fala (todas as localidades)",
+        "available_phone": "0800-771-0101"
+      }
+    ]
+  },
+  "due_date_selection": {
+    "warning_message": "Sua fatura atual com vencimento em %s está fechada e não será alterada. A mudança será aplicada a partir da próxima fatura.",
+    "info_buy_invoice_message": "Compras feitas até %s entrarão nesta fatura.",
+    "info_invoice_cycle_message": "Excepcionalmente, o ciclo de compras da sua próxima fatura %s",
+    "info_invoice_cycle_message_positive": "aumentará em %s dias.",
+    "info_invoice_cycle_message_negative": "diminuirá em %s dias.",
+    "invalid_period_heading": "Você já alterou a data de vencimento há %s dias",
+    "invalid_period_description": "Essa mudança só pode ser feita a cada %s dias. Uma nova alteração só poderá ser feita em %s.",
+    "error_heading": "Não conseguimos alterar a data de vencimento",
+    "error_description": "Tente novamente em alguns instantes.",
+    "success_heading": "A data de vencimento foi alterada",
+    "success_description": "Sua próxima fatura vence\n no dia %s."
+  },
+  "cancel_card": {
+    "heading": "Tem certeza que deseja cancelar seu cartão?",
+    "first_description": "Se você ainda possui compras parceladas, suas faturas continuarão chegando até que elas sejam quitadas.",
+    "second_description": "Será preciso digitar sua senha para confirmar o cancelamento do cartão.",
+    "success_heading": "Seu cartão foi cancelado",
+    "success_description": "Caso mude de ideia, basta solicitar um novo cartão",
+    "error_heading": "Não conseguimos cancelar seu cartão",
+    "error_description": "Por favor, tente novamente em alguns instantes"
+  },
+  "activate_card": {
+    "success_heading": "Seu cartão foi ativado",
+    "success_description": "Você já pode fazer compras com o seu cartão físico.",
+    "error_heading": "Não conseguimos ativar seu cartão",
+    "error_description": "Por favor, tente novamente em alguns instantes"
+  },
+  "authenticate_card": {
+    "error_wrong_password_description": "Senha incorreta. Você tem mais %s tentativas antes de bloquearmos seu cartão.",
+    "error_blocked_password_description": "Para segurança, sua senha foi bloqueada. Para recuperar seu acesso, entre em contato com nossa Central de Atendimento.",
+    "error_description": "Aconteceu um erro inesperado. Tente novamente mais tarde"
+  },
+  "feature_toggle_android": {
+    "login_hash_analytics": {
+      "available": false,
+      "disabled_versions": []
+    }
+  },
+  "card_config": {
+    "credit": {
+      "password_length": 4
+    }
+  },
+  "onboarding_card": {
+    "create_card_password": {
+      "info_message": "Esta é a sua senha de compras e desbloqueio do cartão físico."
+    },
+    "landing_optin": {
+      "benefits_with_financial_service": ["A ativação de Serviços Financeiros não tem nenhum custo", "Não há anuidade", "Você terá acesso aos benefícios do cartão", "A função débito será liberada futuramente"],
+      "benefits": [ "Não há anuidade", "Você terá acesso aos benefícios do cartão", "A função débito será liberada futuramente"],
+      "info_message": "A aquisição e utilização do cartão de crédito XP e serviços financeiros está sujeita a prévia análise dos ativos investidos.",
+      "sign_contract_title": "Declaro que li e estou de acordo com os"
+    }
+  },
+  "remote_config_expiration": 0
+}
